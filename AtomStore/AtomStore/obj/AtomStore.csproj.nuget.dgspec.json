@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\AtomStore.csproj": {}
+  },
+  "projects": {
+    "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\AtomStore.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\AtomStore.Application.csproj",
+        "projectName": "AtomStore.Application",
+        "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\AtomStore.Application.csproj",
+        "packagesPath": "C:\\Users\\pxkhu\\.nuget\\packages\\",
+        "outputPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pxkhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj",
+        "projectName": "AtomStore.Data.EF",
+        "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\pxkhu\\.nuget\\packages\\",
+        "outputPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pxkhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj",
+        "projectName": "AtomStore.Data",
+        "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj",
+        "packagesPath": "C:\\Users\\pxkhu\\.nuget\\packages\\",
+        "outputPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pxkhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj",
+        "projectName": "AtomStore.Infrastructure",
+        "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\pxkhu\\.nuget\\packages\\",
+        "outputPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pxkhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj",
+        "projectName": "AtomStore.Utilities",
+        "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj",
+        "packagesPath": "C:\\Users\\pxkhu\\.nuget\\packages\\",
+        "outputPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pxkhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\AtomStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\AtomStore.csproj",
+        "projectName": "AtomStore",
+        "projectPath": "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\AtomStore.csproj",
+        "packagesPath": "C:\\Users\\pxkhu\\.nuget\\packages\\",
+        "outputPath": "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pxkhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\AtomStore.Application.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\AtomStore.Application.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj"
+              },
+              "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj": {
+                "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
