@@ -1,0 +1,17 @@
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\bin\Debug\netcoreapp2.2\AtomStore.Infrastructure.deps.json
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\bin\Debug\netcoreapp2.2\AtomStore.Infrastructure.dll
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\bin\Debug\netcoreapp2.2\AtomStore.Infrastructure.pdb
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.csproj.CoreCompileInputs.cache
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.AssemblyInfoInputs.cache
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.AssemblyInfo.cs
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.dll
+E:\TLCN\SourceCode\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.pdb
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\bin\Debug\netcoreapp2.2\AtomStore.Infrastructure.deps.json
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\bin\Debug\netcoreapp2.2\AtomStore.Infrastructure.dll
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\bin\Debug\netcoreapp2.2\AtomStore.Infrastructure.pdb
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.csprojAssemblyReference.cache
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.csproj.CoreCompileInputs.cache
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.AssemblyInfoInputs.cache
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.AssemblyInfo.cs
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.dll
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore_Infrastructure\obj\Debug\netcoreapp2.2\AtomStore.Infrastructure.pdb

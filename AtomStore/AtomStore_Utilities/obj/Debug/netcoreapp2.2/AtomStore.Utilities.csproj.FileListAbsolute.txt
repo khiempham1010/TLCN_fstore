@@ -1,0 +1,8 @@
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\bin\Debug\netcoreapp2.2\AtomStore.Utilities.deps.json
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\bin\Debug\netcoreapp2.2\AtomStore.Utilities.dll
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\bin\Debug\netcoreapp2.2\AtomStore.Utilities.pdb
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\obj\Debug\netcoreapp2.2\AtomStore.Utilities.csproj.CoreCompileInputs.cache
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\obj\Debug\netcoreapp2.2\AtomStore.Utilities.AssemblyInfoInputs.cache
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\obj\Debug\netcoreapp2.2\AtomStore.Utilities.AssemblyInfo.cs
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\obj\Debug\netcoreapp2.2\AtomStore.Utilities.dll
+E:\TLCN\SourceCode\AtomStore\AtomStore_Utilities\obj\Debug\netcoreapp2.2\AtomStore.Utilities.pdb

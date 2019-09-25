@@ -12134,28 +12134,28 @@
     },
     "AtomStore.Application/1.0.0": {
       "type": "project",
-      "path": "../../AtomStore1/AtomStore.Application/AtomStore.Application.csproj",
-      "msbuildProject": "../../AtomStore1/AtomStore.Application/AtomStore.Application.csproj"
+      "path": "../AtomStore.Application/AtomStore.Application.csproj",
+      "msbuildProject": "../AtomStore.Application/AtomStore.Application.csproj"
     },
     "AtomStore.Data/1.0.0": {
       "type": "project",
-      "path": "../../AtomStore1/AtomStore_Data/AtomStore.Data.csproj",
-      "msbuildProject": "../../AtomStore1/AtomStore_Data/AtomStore.Data.csproj"
+      "path": "../AtomStore_Data/AtomStore.Data.csproj",
+      "msbuildProject": "../AtomStore_Data/AtomStore.Data.csproj"
     },
     "AtomStore.Data.EF/1.0.0": {
       "type": "project",
-      "path": "../../AtomStore1/AtomStore.Data.EF/AtomStore.Data.EF.csproj",
-      "msbuildProject": "../../AtomStore1/AtomStore.Data.EF/AtomStore.Data.EF.csproj"
+      "path": "../AtomStore.Data.EF/AtomStore.Data.EF.csproj",
+      "msbuildProject": "../AtomStore.Data.EF/AtomStore.Data.EF.csproj"
     },
     "AtomStore.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../../AtomStore1/AtomStore_Infrastructure/AtomStore.Infrastructure.csproj",
-      "msbuildProject": "../../AtomStore1/AtomStore_Infrastructure/AtomStore.Infrastructure.csproj"
+      "path": "../AtomStore_Infrastructure/AtomStore.Infrastructure.csproj",
+      "msbuildProject": "../AtomStore_Infrastructure/AtomStore.Infrastructure.csproj"
     },
     "AtomStore.Utilities/1.0.0": {
       "type": "project",
-      "path": "../../AtomStore1/AtomStore_Utilities/AtomStore.Utilities.csproj",
-      "msbuildProject": "../../AtomStore1/AtomStore_Utilities/AtomStore.Utilities.csproj"
+      "path": "../AtomStore_Utilities/AtomStore.Utilities.csproj",
+      "msbuildProject": "../AtomStore_Utilities/AtomStore.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12177,11 +12177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\AtomStore.csproj",
+      "projectUniqueName": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore\\AtomStore.csproj",
       "projectName": "AtomStore",
-      "projectPath": "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\AtomStore.csproj",
+      "projectPath": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore\\AtomStore.csproj",
       "packagesPath": "C:\\Users\\pxkhu\\.nuget\\packages\\",
-      "outputPath": "E:\\TLCN\\SourceCode\\AtomStore\\AtomStore\\obj\\",
+      "outputPath": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12200,20 +12200,20 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\AtomStore.Application.csproj": {
-              "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Application\\AtomStore.Application.csproj"
+            "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore.Application\\AtomStore.Application.csproj": {
+              "projectPath": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore.Application\\AtomStore.Application.csproj"
             },
-            "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj": {
-              "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj"
+            "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj": {
+              "projectPath": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore.Data.EF\\AtomStore.Data.EF.csproj"
             },
-            "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj": {
-              "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Data\\AtomStore.Data.csproj"
+            "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore_Data\\AtomStore.Data.csproj": {
+              "projectPath": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore_Data\\AtomStore.Data.csproj"
             },
-            "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj": {
-              "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj"
+            "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj": {
+              "projectPath": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore_Infrastructure\\AtomStore.Infrastructure.csproj"
             },
-            "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj": {
-              "projectPath": "E:\\TLCN\\SourceCode\\AtomStore1\\AtomStore_Utilities\\AtomStore.Utilities.csproj"
+            "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore_Utilities\\AtomStore.Utilities.csproj": {
+              "projectPath": "E:\\TLCN\\git\\TLCN_fstore\\AtomStore\\AtomStore_Utilities\\AtomStore.Utilities.csproj"
             }
           }
         }

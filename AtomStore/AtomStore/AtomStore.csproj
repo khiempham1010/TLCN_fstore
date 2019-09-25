@@ -14,11 +14,11 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\AtomStore1\AtomStore.Application\AtomStore.Application.csproj" />
-    <ProjectReference Include="..\..\AtomStore1\AtomStore.Data.EF\AtomStore.Data.EF.csproj" />
-    <ProjectReference Include="..\..\AtomStore1\AtomStore_Data\AtomStore.Data.csproj" />
-    <ProjectReference Include="..\..\AtomStore1\AtomStore_Infrastructure\AtomStore.Infrastructure.csproj" />
-    <ProjectReference Include="..\..\AtomStore1\AtomStore_Utilities\AtomStore.Utilities.csproj" />
+    <ProjectReference Include="..\AtomStore.Application\AtomStore.Application.csproj" />
+    <ProjectReference Include="..\AtomStore.Data.EF\AtomStore.Data.EF.csproj" />
+    <ProjectReference Include="..\AtomStore_Data\AtomStore.Data.csproj" />
+    <ProjectReference Include="..\AtomStore_Infrastructure\AtomStore.Infrastructure.csproj" />
+    <ProjectReference Include="..\AtomStore_Utilities\AtomStore.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

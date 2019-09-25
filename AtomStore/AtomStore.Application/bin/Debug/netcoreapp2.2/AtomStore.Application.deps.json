@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "AtomStore.Application/1.0.0": {
+        "dependencies": {
+          "AtomStore.Data": "1.0.0",
+          "AtomStore.Data.EF": "1.0.0",
+          "AtomStore.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "AtomStore.Application.dll": {}
+        }
+      },
+      "AtomStore.Data/1.0.0": {
+        "dependencies": {
+          "AtomStore.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "AtomStore.Data.dll": {}
+        }
+      },
+      "AtomStore.Data.EF/1.0.0": {
+        "dependencies": {
+          "AtomStore.Data": "1.0.0",
+          "AtomStore.Infrastructure": "1.0.0",
+          "AtomStore.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "AtomStore.Data.EF.dll": {}
+        }
+      },
+      "AtomStore.Infrastructure/1.0.0": {
+        "runtime": {
+          "AtomStore.Infrastructure.dll": {}
+        }
+      },
+      "AtomStore.Utilities/1.0.0": {
+        "runtime": {
+          "AtomStore.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AtomStore.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtomStore.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtomStore.Data.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtomStore.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AtomStore.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
