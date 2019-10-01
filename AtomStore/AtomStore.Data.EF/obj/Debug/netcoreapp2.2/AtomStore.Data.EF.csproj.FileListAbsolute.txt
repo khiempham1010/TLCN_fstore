@@ -15,6 +15,8 @@ E:\TLCN\SourceCode\AtomStore\AtomStore.Data.EF\obj\Debug\netcoreapp2.2\AtomStore
 E:\TLCN\SourceCode\AtomStore\AtomStore.Data.EF\obj\Debug\netcoreapp2.2\AtomStore.Data.EF.dll
 E:\TLCN\SourceCode\AtomStore\AtomStore.Data.EF\obj\Debug\netcoreapp2.2\AtomStore.Data.EF.pdb
 E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore.Data.EF\bin\Debug\netcoreapp2.2\AtomStore.Data.EF.deps.json
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore.Data.EF\bin\Debug\netcoreapp2.2\AtomStore.Data.EF.runtimeconfig.json
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore.Data.EF\bin\Debug\netcoreapp2.2\AtomStore.Data.EF.runtimeconfig.dev.json
 E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore.Data.EF\bin\Debug\netcoreapp2.2\AtomStore.Data.EF.dll
 E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore.Data.EF\bin\Debug\netcoreapp2.2\AtomStore.Data.EF.pdb
 E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore.Data.EF\bin\Debug\netcoreapp2.2\AtomStore.Data.dll

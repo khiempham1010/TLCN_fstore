@@ -7,6 +7,6 @@ namespace AtomStore.Data.Interfaces
     public interface IDateTracking
     {
         DateTime DateCreated { get; set; }
-        DateTime DateModifiled { get; set; }
+        DateTime DateModified { get; set; }
     }
 }

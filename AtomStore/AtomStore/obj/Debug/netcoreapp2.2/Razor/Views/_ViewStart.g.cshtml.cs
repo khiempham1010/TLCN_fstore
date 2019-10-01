@@ -23,8 +23,13 @@ using AtomStore.Models;
 
 #line default
 #line hidden
+#line 3 "E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\Views\_ViewImports.cshtml"
+using AtomStore.Data.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"556c05484af7022093e3087d13f6e0f46b6cd3aa", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c1a8ccef133999edfe6ad26f7f9c8d2810d3b2cb", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

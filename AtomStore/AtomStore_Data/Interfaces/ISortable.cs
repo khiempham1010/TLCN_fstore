@@ -6,6 +6,6 @@ namespace AtomStore.Data.Interfaces
 {
     public interface ISortable
     {
-        int SortOder { get; set; }
+        int SortOrder { get; set; }
     }
 }

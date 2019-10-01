@@ -13,6 +13,14 @@ using Microsoft.EntityFrameworkCore;
 using AtomStore.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using AtomStore.Data.EF;
+using AtomStore.Data.Entities;
+using AutoMapper;
+using AtomStore.Application.AutoMapper;
+using AtomStore.Data.EF.Repositories;
+using AtomStore.Data.IRepositories;
+using AtomStore.Application.Interfaces;
+using AtomStore.Application.Imlementation;
 
 namespace AtomStore
 {
@@ -35,18 +43,54 @@ namespace AtomStore
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
+                    Configuration.GetConnectionString("DefaultConnection"),o=>o.MigrationsAssembly("AtomStore.Data.EF")));
+            services.AddIdentity<AppUser, AppRole>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
+            services.Configure<IdentityOptions>(options =>
+            {
+                //password settings
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 8;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireNonAlphanumeric = false;
 
+                //lock out settings
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+                options.Lockout.MaxFailedAccessAttempts = 10;
+
+                //user settings
+                options.User.RequireUniqueEmail = true;
+            });
+
+            services.AddScoped<UserManager<AppUser>, UserManager<AppUser>>();
+            services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddTransient<DbInitializer>();
+
+
+            services.AddAutoMapper();
+            services.AddSingleton(Mapper.Configuration);
+            services.AddScoped(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
+            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+            services.AddTransient<IProductCategoryService,ProductCategoryService>();
+            services.AddMvc();
+            //services.AddDbContextPool<AppDbContext>
+            //(
+            //    dbContextOptionsBuilder =>
+            //    {
+            //        dbContextOptionsBuilder.UseSqlServer("yourConnection",
+            //            optionsSqlServer => { optionsSqlServer.MigrationsAssembly("ADD_YOUR_ASSEMBLY_NAME"); });
+            //    }
+            //);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,DbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -72,6 +116,7 @@ namespace AtomStore
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            dbInitializer.Seed().Wait();
         }
     }
 }
