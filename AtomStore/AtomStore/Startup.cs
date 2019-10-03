@@ -21,6 +21,7 @@ using AtomStore.Data.EF.Repositories;
 using AtomStore.Data.IRepositories;
 using AtomStore.Application.Interfaces;
 using AtomStore.Application.Imlementation;
+using Newtonsoft.Json.Serialization;
 
 namespace AtomStore
 {
@@ -78,7 +79,7 @@ namespace AtomStore
             services.AddScoped(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             services.AddTransient<IProductCategoryService,ProductCategoryService>();
-            services.AddMvc();
+            services.AddMvc().AddJsonOptions(options=>options.SerializerSettings.ContractResolver =new DefaultContractResolver());
             //services.AddDbContextPool<AppDbContext>
             //(
             //    dbContextOptionsBuilder =>
@@ -115,6 +116,8 @@ namespace AtomStore
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(name: "areaRoute",
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
             });
             dbInitializer.Seed().Wait();
         }
