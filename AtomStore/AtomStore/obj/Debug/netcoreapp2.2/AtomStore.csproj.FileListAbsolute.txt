@@ -48,3 +48,6 @@ E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\obj\Debug\netcoreapp2.2\AtomStore.cs
 E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\obj\Debug\netcoreapp2.2\AtomStore.dll
 E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\obj\Debug\netcoreapp2.2\AtomStore.pdb
 E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Login\Index.g.cshtml.cs
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Shared\Components\SideBar\Default.g.cshtml.cs
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\Product\Index.g.cshtml.cs
+E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\obj\Debug\netcoreapp2.2\Razor\Areas\Admin\Views\ProductCategory\Index.g.cshtml.cs

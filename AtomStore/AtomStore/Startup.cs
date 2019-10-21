@@ -22,6 +22,8 @@ using AtomStore.Data.IRepositories;
 using AtomStore.Application.Interfaces;
 using AtomStore.Application.Imlementation;
 using Newtonsoft.Json.Serialization;
+using AtomStore.Helpers;
+using AtomStore.Infrastructure.Interfaces;
 
 namespace AtomStore
 {
@@ -73,21 +75,27 @@ namespace AtomStore
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddTransient<DbInitializer>();
 
+            services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
 
             services.AddAutoMapper();
             services.AddSingleton(Mapper.Configuration);
             services.AddScoped(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
+
+            services.AddTransient(typeof(IUnitOfWork), typeof(EFUnitOfWork));
+            services.AddTransient(typeof(IRepository<,>), typeof(EFRepository<,>));
+
+            //Repositories
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+            services.AddTransient<IFunctionRepository, FunctionRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+
+            //Services
             services.AddTransient<IProductCategoryService,ProductCategoryService>();
+            services.AddTransient<IFunctionService, FunctionService>();
+            services.AddTransient<IProductService, ProductService>();
+
+
             services.AddMvc().AddJsonOptions(options=>options.SerializerSettings.ContractResolver =new DefaultContractResolver());
-            //services.AddDbContextPool<AppDbContext>
-            //(
-            //    dbContextOptionsBuilder =>
-            //    {
-            //        dbContextOptionsBuilder.UseSqlServer("yourConnection",
-            //            optionsSqlServer => { optionsSqlServer.MigrationsAssembly("ADD_YOUR_ASSEMBLY_NAME"); });
-            //    }
-            //);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -117,7 +125,7 @@ namespace AtomStore
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
                 routes.MapRoute(name: "areaRoute",
-                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                    template: "{area:exists}/{controller=Login}/{action=Index}/{id?}");
             });
             dbInitializer.Seed().Wait();
         }

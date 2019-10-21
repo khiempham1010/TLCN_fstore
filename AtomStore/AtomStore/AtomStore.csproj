@@ -51,25 +51,6 @@
 
 
   <ItemGroup>
-    <None Include="wwwroot\admin-side\css\custom.css" />
-    <None Include="wwwroot\admin-side\css\custom.min.css" />
-    <None Include="wwwroot\admin-side\images\american-express.png" />
-    <None Include="wwwroot\admin-side\images\cropper.jpg" />
-    <None Include="wwwroot\admin-side\images\img.jpg" />
-    <None Include="wwwroot\admin-side\images\inbox.png" />
-    <None Include="wwwroot\admin-side\images\mastercard.png" />
-    <None Include="wwwroot\admin-side\images\media.jpg" />
-    <None Include="wwwroot\admin-side\images\paypal.png" />
-    <None Include="wwwroot\admin-side\images\picture.jpg" />
-    <None Include="wwwroot\admin-side\images\prod-1.jpg" />
-    <None Include="wwwroot\admin-side\images\prod-2.jpg" />
-    <None Include="wwwroot\admin-side\images\prod-3.jpg" />
-    <None Include="wwwroot\admin-side\images\prod-4.jpg" />
-    <None Include="wwwroot\admin-side\images\prod-5.jpg" />
-    <None Include="wwwroot\admin-side\images\user.png" />
-    <None Include="wwwroot\admin-side\images\visa.png" />
-    <None Include="wwwroot\admin-side\js\custom.js" />
-    <None Include="wwwroot\admin-side\js\custom.min.js" />
     <None Include="wwwroot\lib\ckeditor\.github\ISSUE_TEMPLATE" />
     <None Include="wwwroot\lib\gentelella\vendors\Chart.js\.github\ISSUE_TEMPLATE.md" />
     <None Include="wwwroot\lib\gentelella\vendors\Chart.js\.github\PULL_REQUEST_TEMPLATE.md" />

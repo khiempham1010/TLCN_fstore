@@ -142,7 +142,7 @@ namespace AtomStore.Application.Imlementation
 
         public OrderViewModel GetDetail(int OrderId)
         {
-            var Order = _orderRepository.FindSinggle(x => x.Id == OrderId);
+            var Order = _orderRepository.FindSingle(x => x.Id == OrderId);
             var OrderVm = Mapper.Map<Order, OrderViewModel>(Order);
             var OrderDetailVm = _orderDetailRepository.FindAll(x => x.OrderId == OrderId).ProjectTo<OrderDetailViewModel>().ToList();
             OrderVm.OrderDetails = OrderDetailVm;
@@ -170,7 +170,7 @@ namespace AtomStore.Application.Imlementation
 
         public void DeleteDetail(int productId, int OrderId, int colorId, int sizeId)
         {
-            var detail = _orderDetailRepository.FindSinggle(x => x.ProductId == productId
+            var detail = _orderDetailRepository.FindSingle(x => x.ProductId == productId
            && x.OrderId == OrderId && x.ColorId == colorId && x.SizeId == sizeId);
             _orderDetailRepository.Remove(detail);
         }

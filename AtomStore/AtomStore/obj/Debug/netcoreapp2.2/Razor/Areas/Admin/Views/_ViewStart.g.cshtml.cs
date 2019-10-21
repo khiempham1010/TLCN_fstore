@@ -14,7 +14,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #line 1 "E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\Areas\Admin\Views\_ViewImports.cshtml"
-using AtomStore;
+using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
@@ -24,12 +24,27 @@ using AtomStore.Models;
 #line default
 #line hidden
 #line 3 "E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\Areas\Admin\Views\_ViewImports.cshtml"
+using AtomStore.Models.AccountViewModels;
+
+#line default
+#line hidden
+#line 4 "E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\Areas\Admin\Views\_ViewImports.cshtml"
+using AtomStore.Models.ManageViewModels;
+
+#line default
+#line hidden
+#line 5 "E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\Areas\Admin\Views\_ViewImports.cshtml"
 using AtomStore.Data.Entities;
 
 #line default
 #line hidden
+#line 6 "E:\TLCN\git\TLCN_fstore\AtomStore\AtomStore\Areas\Admin\Views\_ViewImports.cshtml"
+using AtomStore.Application.ViewModels.System;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Areas/Admin/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c1a8ccef133999edfe6ad26f7f9c8d2810d3b2cb", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"682dea3694fb3b9a428ecb56788b7747d83ae178", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

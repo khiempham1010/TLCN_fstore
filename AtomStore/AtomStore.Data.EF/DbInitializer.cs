@@ -60,10 +60,11 @@ namespace AtomStore.Data.EF
                 }, "12345678") ;
                 var user = await _userManager.FindByNameAsync("admin");
                 await _userManager.AddToRoleAsync(user, "Admin");
+
             }
             if (_context.Functions.Count() == 0)
             {
-                _context.Functions.AddRange(new List<Function>()
+                List < Function > functions = new List<Function>()
                 {
                     new Function() {Id = "SYSTEM", Name = "System",ParentId = null,SortOrder = 1,Status = Status.Active,URL = "/",IconCss = "fa-desktop"  },
                     new Function() {Id = "ROLE", Name = "Role",ParentId = "SYSTEM",SortOrder = 1,Status = Status.Active,URL = "/admin/role/index",IconCss = "fa-home"  },
@@ -91,7 +92,8 @@ namespace AtomStore.Data.EF
                     new Function() {Id = "REVENUES",Name = "Revenue report",ParentId = "REPORT",SortOrder = 1,Status = Status.Active,URL = "/admin/report/revenues",IconCss = "fa-bar-chart-o"  },
                     new Function() {Id = "ACCESS",Name = "Visitor Report",ParentId = "REPORT",SortOrder = 2,Status = Status.Active,URL = "/admin/report/visitor",IconCss = "fa-bar-chart-o"  },
                     new Function() {Id = "READER",Name = "Reader Report",ParentId = "REPORT",SortOrder = 3,Status = Status.Active,URL = "/admin/report/reader",IconCss = "fa-bar-chart-o"  },
-                });
+                };
+                _context.Functions.AddRange(functions);
             }
 
             if (_context.Colors.Count() == 0)
@@ -250,7 +252,7 @@ namespace AtomStore.Data.EF
                     Status = Status.Active
                 });
             }
-            
+            await _context.SaveChangesAsync();
 
         }
     }

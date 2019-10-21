@@ -4,12 +4,27 @@
     }
 
     var registerEvents = function () {
+        $('#frmLogin').validate({
+            errorClass: 'red',
+            ignore: [],
+            lang:'en',
+            rules: {
+                userName: {
+                    required: true
+                },
+                password: {
+                    required: true
+                }
+            }
+        });
         $('#btnLogin').on('click', function (e) {
-            e.preventDefault();
-            var user = $('#txtUserName').val();
-            var pass = $('#txtPassword').val();
-            login(user, pass);
-        })
+            if ($('#frmLogin').valid()) {
+                e.preventDefault();
+                var user = $('#txtUserName').val();
+                var pass = $('#txtPassword').val();
+                login(user, pass);
+            }
+        });
     }
     var login = function (user, pass) {
         $.ajax({

@@ -24,7 +24,7 @@ namespace AtomStore.Application.Imlementation
 
         public SystemConfigViewModel GetSystemConfig(string code)
         {
-            return Mapper.Map<SystemConfig, SystemConfigViewModel>(_systemConfigRepository.FindSinggle(x => x.Id == code));
+            return Mapper.Map<SystemConfig, SystemConfigViewModel>(_systemConfigRepository.FindSingle(x => x.Id == code));
         }
     }
 }
